@@ -2,7 +2,7 @@
 
 ## 📁 Acesso ao projeto
 
-<a href="https://refined-github-html-preview.kidonng.workers.dev/leonardobehnck/usuario/raw/main/usuarios.html">Clique aqui para acessar a demo do projeto.</a>
+<a href="https://refined-github-html-preview.kidonng.workers.dev/leonardobehnck/usuarios/raw/main/usuarios.html">Clique aqui para acessar a demo do projeto.</a>
 
 ## :hammer: Funcionalidades do projeto
 
