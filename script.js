@@ -13,7 +13,7 @@ function criarUsuario() {
 function exibeUsuarios() {
   document.getElementById('usuariosAtivos').innerHTML = ""
   for (let i = 0; i < usuarios.length; i++) {
-    document.getElementById('usuariosAtivos').innerHTML += `<span id="usuarioCor" style="color:${usuarios[i].usuarioCor};">${usuarios[i].usuarioNome}</span>`
+    document.getElementById('usuariosAtivos').innerHTML += `<span id="usuarioCor" style="color:${usuarios[i].usuarioCor};"><button id="remover" onclick="removeUsuario(${i});"> - </button> ${usuarios[i].usuarioNome}</span>`
   }
   listaUsuarios()
 }
@@ -38,6 +38,14 @@ function exibeMensagemNaTela() {
     }
   }
 }
+
+function removeUsuario(index) {
+  usuarios.splice(index, 1)
+  listaUsuarios()
+  exibeUsuarios()
+  //if (index == userSelected) {eraseData()}
+}
+
 
 function apagar() {
   document.getElementById('usuarioNome').value = ""
