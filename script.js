@@ -39,13 +39,11 @@ function exibeMensagemNaTela() {
   }
 }
 
-function removeUsuario(index) {
-  usuarios.splice(index, 1)
+function removeUsuario(i) {
+  usuarios.splice(i, 1)
   listaUsuarios()
   exibeUsuarios()
-  //if (index == userSelected) {eraseData()}
 }
-
 
 function apagar() {
   document.getElementById('usuarioNome').value = ""
