@@ -27,6 +27,12 @@ header {
   background-color: var(--corHead);
 }
 
+main {
+  width: 100vw;
+  height: 89vh;
+  position: absolute;
+}
+
 h1 {
   font-weight: 200;
   font-size: 1.5em;
@@ -86,12 +92,6 @@ hr {
   border-style: inset;
 }
 
-#container {
-  width: 100vw;
-  height: 89vh;
-  position: absolute;
-}
-
 #cadastro,
 #mensagens {
   width: 250px;
@@ -107,9 +107,10 @@ hr {
   top: 0;
 }
 
-#usuariosAtivos {
+
+#usuariosAtivos,
+#mensagemNaTela {
   width: 250px;
-  height: 100px;
   padding: 5px 0;
   margin: 0 20px;
 }
